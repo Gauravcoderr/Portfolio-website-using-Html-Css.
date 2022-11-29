@@ -1,0 +1,290 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.navbar img {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+.navbar {
+   display: flex;
+   padding: 20px;
+
+}
+
+.navbar ul li {
+   font-size: 1.3rem;
+   list-style: none;
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+   margin: 5px;
+   color: white;
+
+}
+
+.navbar ul {
+   display: flex;
+   padding-left: 50px;
+   padding-right: 19px;
+   margin: 20px;
+
+
+}
+
+.navbar ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+.navbar ul li a:hover {
+   color: blue;
+}
+
+.bar {
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 135px;
+   padding-right: 330px;
+
+}
+
+
+#button:hover {
+   background-color: black;
+   font-family: sans-serif;
+   border-color: blue;
+   color: blue;
+   border: default;
+   font-weight: bold;
+
+}
+
+#button {
+   color: white;
+   background-color: blue;
+   font-size: 20px;
+   width: 150px;
+   font-family: sans-serif;
+   height: 38px;
+   border: 0;
+   margin: 1px;
+
+}
+
+.button {
+   display: flex;
+   height: 45px;
+   padding: 15px;
+
+}
+
+.main {
+   background-color: black;
+   height: 150vh;
+   width: auto;
+}
+
+
+.body img {
+   padding-left: 141px;
+   padding-top: 50px;
+   height: 111vh;
+}
+
+.about {
+
+   padding-left: 197px;
+   padding-top: 112px;
+}
+
+
+.name {
+   display: flex;
+}
+
+h3 {
+   color: blue;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+   font-size: 2.5rem;
+
+}
+
+h1 {
+   font-size: 4rem;
+   color: white;
+}
+
+p {
+   justify-content: center;
+   color: white;
+   font-size: 1.1rem;
+   font-family: sans-serif;
+
+}
+
+h2 {
+   color: blue;
+   font-size: 4rem;
+}
+
+#cv {
+   background-color: black;
+   color: blue;
+   font-size: 1rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border-color: blue;
+   border-radius: 0%;
+   height: 45px;
+   width: 197px;
+}
+
+#cv:hover {
+   background-color: blue;
+   color: white;
+}
+
+.me {
+   background-color: white;
+   height: 100vh;
+   width: auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+#me img {
+   height: 75vh;
+   width: 29vw;
+   margin-left: 109px;
+}
+
+.me h1 {
+   color: black;
+   font-size: 2rem;
+}
+
+.me h3 {
+   color: black;
+   font-weight: lighter;
+   font-size: 22px;
+}
+
+.me p {
+   color: black;
+   font-weight: lighter;
+}
+
+.me {
+   margin-top: 61px;
+   margin-right: 224px;
+}
+
+#he {
+   margin-top: 30px;
+   margin-right: 24px;
+   margin-left: 198px;
+}
+.services{
+background-color:#f2f2f2;
+   height: 110vh;
+   font-family: sans-serif;
+   display: flex;
+   flex-direction: column;
+}
+.container{
+   padding-top: 20px;
+}
+.container h1{
+   font-size: 2rem;
+color: black;
+align-self: center;
+padding-top: 3px;
+padding-left: 570px;
+
+}
+.container h3{
+   font-size: 1rem;
+   color:black;
+   font-weight: lighter;
+   padding-left: 543px;
+   padding-top: 7px;
+}
+.cardwrapper{
+
+   padding-left:100px;
+   width: 85vw;
+   padding-top: 60px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-between;
+   align-items: center;
+   align-content: center;
+
+}
+.head{
+   font-size: 1.5rem;
+   font-family: sans-serif;
+   padding-left: 69px;
+   color:black;
+
+}
+.para{
+   font-family: sans-serif;
+   font-size: 1rem;
+   font-weight: lighter;
+   padding-top: 10px;
+   padding-left: 19px;
+   color:black;
+
+}
+.card{
+   height: 35vh;
+   width: 25vw;
+   background-color:white;
+   margin-bottom: 50px;
+   backface-visibility: hidden;
+
+
+
+}
+.card img{
+   padding-left: 119px;
+    padding-bottom: 11px;
+    margin-top: -30px;
+    height: 15vh;
+
+}
+.card:hover{
+   background-color:black;
+}
+.card:hover .head {
+   color:white;
+}
+
+.card:hover .para {
+   color:white;
+}
+
+.foot{
+   height: 30vh;
+   width: auto;
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+}
+.image{
+   height:10vh;
+   width: 10vw;
+
+}
+.yo{
+   padding-top: 24px;
+}
